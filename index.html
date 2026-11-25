@@ -1,81 +1,1249 @@
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content=" Mizanur Ruman — Healthcare IT, HIS Analyst and Application Support portfolio. Experience in clinical technology deployment, service desk support, and automation.">
-  <meta name="theme-color" content="#0b1524">
-  <title>Mizanur Ruman | Healthcare IT & Application Support</title>
+  <meta name="description" content="Mizanur Ruman — IT Systems and Application Support professional with experience in Healthcare IT, HIS, enterprise IT support, networking, data centre infrastructure, cybersecurity and AI automation.">
+  <meta name="theme-color" content="#091321">
+
+  <title>Mizanur Ruman | IT Systems & Application Support</title>
+
   <style>
-    :root{--bg:#091321;--surface:#112137;--line:#26415b;--txt:#eaf4fb;--muted:#a4b8c9;--teal:#58e0ca;--blue:#9fc9ff;--max:1100px}
-    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    a{color:inherit} a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:4px;border-radius:4px} .container{width:min(calc(100% - 40px),var(--max));margin:auto}
-    .header{position:sticky;top:0;z-index:10;background:rgba(9,19,33,.95);border-bottom:1px solid #20344b;backdrop-filter:blur(15px)}
-    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:68px}.brand{font-weight:850;letter-spacing:-.03em;font-size:1.15rem;text-decoration:none}.brand span{color:var(--teal)}
-    .links{display:flex;align-items:center;gap:24px;flex-wrap:wrap}.links a{font-size:.9rem;text-decoration:none;color:#c0d4e2}.links a:hover{color:var(--teal)}
-    .hero{padding:105px 0 86px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 85% 25%,#174153 0,transparent 48%),linear-gradient(180deg,#0b1b2d,var(--bg))}
-    .eyebrow{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);font-weight:800}.hero h1{font-size:clamp(2.65rem,6.2vw,5.5rem);letter-spacing:-.06em;line-height:1.07;max-width:900px;margin:18px 0 20px}.hero h1 span{color:var(--teal)}
-    .hero p{max-width:750px;font-size:1.17rem;color:#bdd1df;margin:0 0 26px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;gap:10px;border-radius:9px;padding:12px 18px;font-size:.94rem;text-decoration:none;font-weight:750;border:1px solid #44637b;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--teal);color:#08212a;border-color:var(--teal)}.secondary{background:#142a40;color:var(--txt)}
-    .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:57px;max-width:760px}.stat{border-left:2px solid var(--teal);padding:4px 15px}.stat strong{display:block;font-size:1.9rem;line-height:1.15}.stat small{color:var(--muted);font-size:.83rem}
-    section{padding:80px 0;border-top:1px solid #1a2e42}.sectionlabel{color:var(--teal);font-weight:800;text-transform:uppercase;font-size:.76rem;letter-spacing:.18em}.sectiontitle{font-size:clamp(1.9rem,3.5vw,2.8rem);letter-spacing:-.04em;line-height:1.14;margin:12px 0 20px}.lead{color:var(--muted);max-width:760px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:30px}.card{border:1px solid var(--line);background:var(--surface);padding:26px;border-radius:15px}.card h3{font-size:1.17rem;line-height:1.35;margin:10px 0}.card p{color:var(--muted);margin:0}.card .meta{font-size:.79rem;color:var(--teal);font-weight:750;text-transform:uppercase;letter-spacing:.08em}
-    .timeline{display:grid;gap:16px;margin-top:30px}.job{border:1px solid var(--line);background:#0d1c2e;padding:23px 25px;border-radius:14px}.jobtop{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}.job h3{margin:0;font-size:1.15rem}.job .employer{color:var(--teal);font-weight:650}.job time{white-space:nowrap;color:var(--muted);font-size:.88rem}.job ul{margin:12px 0 0;padding-left:20px;color:#c0d0dd}.job li{margin:4px 0}
-    .pillwrap{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.pill{border:1px solid #35526d;border-radius:100px;background:#152a3f;color:#cfdeeb;padding:7px 12px;font-size:.88rem}.skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:30px}.skillcard{background:#0f2134;padding:24px;border-radius:14px;border:1px solid var(--line)}.skillcard h3{margin:0 0 8px;color:var(--blue)}.skillcard p{color:var(--muted);margin:0}
-    .edu{display:grid;gap:12px;margin-top:25px}.eduitem{border-left:2px solid var(--teal);padding:4px 0 4px 20px}.eduitem strong{display:block}.eduitem span{color:var(--muted)}
-    .contact{background:radial-gradient(ellipse at 70% 40%,#14404a,transparent 55%),#0a192a}.contactbox{border:1px solid #386277;padding:38px;border-radius:18px;background:rgba(20,49,65,.5)}.contactbox p{color:var(--muted)}.footer{padding:25px 0;border-top:1px solid var(--line);font-size:.84rem;color:var(--muted)}.footer .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-    @media(max-width:760px){.links{gap:13px}.links a{font-size:.8rem}.nav{align-items:flex-start;padding:16px 0;flex-direction:column;gap:10px}.hero{padding:65px 0}.cards,.skills{grid-template-columns:1fr}.stats{gap:8px}.stat{padding-left:10px}.stat strong{font-size:1.5rem}.jobtop{display:block}.job time{display:block;margin-top:5px}section{padding:58px 0}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+    :root {
+      --bg: #091321;
+      --surface: #112137;
+      --line: #26415b;
+      --txt: #eaf4fb;
+      --muted: #a4b8c9;
+      --teal: #58e0ca;
+      --blue: #9fc9ff;
+      --max: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 110px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--txt);
+      font: 16px/1.65 system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--teal);
+      outline-offset: 4px;
+      border-radius: 4px;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max));
+      margin: auto;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(9, 19, 33, .95);
+      border-bottom: 1px solid #20344b;
+      backdrop-filter: blur(15px);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 68px;
+    }
+
+    .brand {
+      font-weight: 850;
+      letter-spacing: -.03em;
+      font-size: 1.15rem;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: var(--teal);
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      font-size: .9rem;
+      text-decoration: none;
+      color: #c0d4e2;
+    }
+
+    .links a:hover {
+      color: var(--teal);
+    }
+
+    .hero {
+      padding: 105px 0 86px;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse at 85% 25%, #174153 0, transparent 48%),
+        linear-gradient(180deg, #0b1b2d, var(--bg));
+    }
+
+    .eyebrow {
+      font-size: .8rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--teal);
+      font-weight: 800;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.65rem, 6.2vw, 5.5rem);
+      letter-spacing: -.06em;
+      line-height: 1.07;
+      max-width: 900px;
+      margin: 18px 0 20px;
+    }
+
+    .hero h1 span {
+      color: var(--teal);
+    }
+
+    .hero p {
+      max-width: 780px;
+      font-size: 1.17rem;
+      color: #bdd1df;
+      margin: 0 0 26px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border-radius: 9px;
+      padding: 12px 18px;
+      font-size: .94rem;
+      text-decoration: none;
+      font-weight: 750;
+      border: 1px solid #44637b;
+      transition: transform .2s, background .2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .primary {
+      background: var(--teal);
+      color: #08212a;
+      border-color: var(--teal);
+    }
+
+    .secondary {
+      background: #142a40;
+      color: var(--txt);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 57px;
+      max-width: 950px;
+    }
+
+    .stat {
+      border-left: 2px solid var(--teal);
+      padding: 4px 15px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.9rem;
+      line-height: 1.15;
+    }
+
+    .stat small {
+      color: var(--muted);
+      font-size: .83rem;
+    }
+
+    section {
+      padding: 80px 0;
+      border-top: 1px solid #1a2e42;
+    }
+
+    .sectionlabel {
+      color: var(--teal);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: .76rem;
+      letter-spacing: .18em;
+    }
+
+    .sectiontitle {
+      font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+      letter-spacing: -.04em;
+      line-height: 1.14;
+      margin: 12px 0 20px;
+    }
+
+    .lead {
+      color: var(--muted);
+      max-width: 850px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 30px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      background: var(--surface);
+      padding: 26px;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      font-size: 1.17rem;
+      line-height: 1.35;
+      margin: 10px 0;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .card .meta {
+      font-size: .79rem;
+      color: var(--teal);
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 16px;
+      margin-top: 30px;
+    }
+
+    .job {
+      border: 1px solid var(--line);
+      background: #0d1c2e;
+      padding: 23px 25px;
+      border-radius: 14px;
+    }
+
+    .jobtop {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .job h3 {
+      margin: 0;
+      font-size: 1.15rem;
+    }
+
+    .job .employer {
+      color: var(--teal);
+      font-weight: 650;
+    }
+
+    .job time {
+      white-space: nowrap;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    .job ul {
+      margin: 12px 0 0;
+      padding-left: 20px;
+      color: #c0d0dd;
+    }
+
+    .job li {
+      margin: 4px 0;
+    }
+
+    .pillwrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .pill {
+      border: 1px solid #35526d;
+      border-radius: 100px;
+      background: #152a3f;
+      color: #cfdeeb;
+      padding: 7px 12px;
+      font-size: .88rem;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 30px;
+    }
+
+    .skillcard {
+      background: #0f2134;
+      padding: 24px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+    }
+
+    .skillcard h3 {
+      margin: 0 0 8px;
+      color: var(--blue);
+    }
+
+    .skillcard p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .edu {
+      display: grid;
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .eduitem {
+      border-left: 2px solid var(--teal);
+      padding: 4px 0 4px 20px;
+    }
+
+    .eduitem strong {
+      display: block;
+    }
+
+    .eduitem span {
+      color: var(--muted);
+    }
+
+    .contact {
+      background:
+        radial-gradient(ellipse at 70% 40%, #14404a, transparent 55%),
+        #0a192a;
+    }
+
+    .contactbox {
+      border: 1px solid #386277;
+      padding: 38px;
+      border-radius: 18px;
+      background: rgba(20, 49, 65, .5);
+    }
+
+    .contactbox p {
+      color: var(--muted);
+    }
+
+    .footer {
+      padding: 25px 0;
+      border-top: 1px solid var(--line);
+      font-size: .84rem;
+      color: var(--muted);
+    }
+
+    .footer .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 760px) {
+      .links {
+        gap: 13px;
+      }
+
+      .links a {
+        font-size: .8rem;
+      }
+
+      .nav {
+        align-items: flex-start;
+        padding: 16px 0;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .hero {
+        padding: 65px 0;
+      }
+
+      .cards,
+      .skills {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+      }
+
+      .stat {
+        padding-left: 10px;
+      }
+
+      .stat strong {
+        font-size: 1.5rem;
+      }
+
+      .jobtop {
+        display: block;
+      }
+
+      .job time {
+        display: block;
+        margin-top: 5px;
+      }
+
+      section {
+        padding: 58px 0;
+      }
+
+      .contactbox {
+        padding: 24px;
+      }
+
+      html {
+        scroll-padding-top: 150px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      .btn {
+        transition: none;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <header class="header"><nav class="container nav" aria-label="Main navigation"><a href="#home" class="brand">MIZANUR<span>.</span>RUMAN</a><div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#additional-experience">Additional Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav></header>
+
+  <!-- NAVIGATION -->
+
+  <header class="header">
+    <nav class="container nav" aria-label="Main navigation">
+
+      <a href="#home" class="brand">
+        MIZANUR<span>.</span>RUMAN
+      </a>
+
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#additional-experience">Assignments</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </nav>
+  </header>
+
   <main>
-    <div id="home" class="hero"><div class="container"><div class="eyebrow">Toronto, Ontario · Healthcare IT & Technical Operations</div><h1>Technology that supports<br><span>people and care.</span></h1><p>I'm Mizanur Ruman, an IT professional with experience in hospital information systems, application support, enterprise IT operations, and automation. I enjoy making technology reliable, usable, and easier to support.</p><div class="buttons"><a class="btn primary" href="mailto:mizan-ruman@outlook.com">Get in touch <span aria-hidden="true">↗</span></a><a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">View résumé ↓</a><a class="btn secondary" href="https://www.linkedin.com/in/mizan-ruman/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div><div class="stats" aria-label="Career highlights"><div class="stat"><strong>103</strong><small>Hospital workstations prepared</small></div><div class="stat"><strong>20+</strong><small>Daily service incidents handled</small></div><div class="stat"><strong>70%+</strong><small>First-contact resolution</small></div></div></div></div>
-    <section id="about"><div class="container"><div class="sectionlabel">About me</div><h2 class="sectiontitle">Bridging frontline support and systems operations.</h2><p class="lead">My experience spans healthcare, higher education, government, and enterprise environments. At Cambridge Memorial Hospital, I supported HIS migration readiness and technology deployments. At Centennial College, I resolved frontline IT issues across a large user community. I have also supported ERP operations, monitored AI automation workflows using cloud and container technologies, and gained hands-on data centre network cabling experience through an on-call technical assignment.</p><div class="cards"><div class="card"><div class="meta">Healthcare IT</div><h3>Hospital technology readiness</h3><p>Supported HIS migration preparation, workstation staging and imaging, and coordination with IT teams, vendors, and hospital departments.</p></div><div class="card"><div class="meta">Application & user support</div><h3>Practical, service-focused troubleshooting</h3><p>Experience with incident triage, endpoint support, account access, enterprise applications, technical documentation, and escalation workflows.</p></div></div></div></section>
-    <section id="experience"><div class="container"><div class="sectionlabel">Professional experience</div><h2 class="sectiontitle">Where I've contributed.</h2><div class="timeline">
-      <article class="job"><div class="jobtop"><div><h3>HIS Analyst</h3><div class="employer">Cambridge Memorial Hospital · Cambridge, ON</div></div><time>Jul – Oct 2026</time></div><ul><li>Supported hospital-wide HIS migration and deployment readiness with IT teams, vendors, and departmental stakeholders.</li><li>Prepared and configured 103 Workstations on Wheels for planned updates and deployment.</li><li>Coordinated with a vendor regarding 18 wireless access point installations; supported imaging and workstation troubleshooting.</li></ul></article>
-      <article class="job"><div class="jobtop"><div><h3>AI Automation Specialist</h3><div class="employer">MatMul Inc. · Toronto, ON</div></div><time>May – Jul 2026</time></div><ul><li>Monitored containerized automation workflows using Docker and Google Cloud Platform.</li><li>Assisted with AI agents producing structured JSON outputs and reviewed workflow logs to investigate issues.</li></ul></article>
-      <article class="job"><div class="jobtop"><div><h3>IT Service Desk Technician</h3><div class="employer">Centennial College · Toronto, ON</div></div><time>Sep 2025 – Apr 2026</time></div><ul><li>Resolved 20+ daily ServiceNow incidents across Microsoft 365, Active Directory, MFA, VPN, Windows, and networking.</li><li>Achieved over 70% first-contact resolution in an environment serving over 40,000 users.</li><li>Collaborated with Tier 2, cybersecurity, and infrastructure teams on escalations.</li></ul></article>
-      <article class="job"><div class="jobtop"><div><h3>Assistant Officer – IT</h3><div class="employer">Knit Horizon Ltd · Gazipur, Bangladesh</div></div><time>Jun 2024 – Aug 2025</time></div><ul><li>Supported ERP operations and monitored workflows serving 1,200+ employees.</li><li>Coordinated technical reporting with IT leadership, stakeholders, and third-party providers.</li></ul></article>
-      <article class="job"><div class="jobtop"><div><h3>IT Service Desk Support</h3><div class="employer">Centennial College · Toronto, ON</div></div><time>Sep 2023 – Apr 2024</time></div><ul><li>Delivered desktop, endpoint and classroom AV support; documented issues and resolutions.</li><li>Assisted during live academic sessions and events alongside AV specialists.</li></ul></article>
-      <article class="job"><div class="jobtop"><div><h3>IT Service / Junior Meteorological Inspector (Co-op)</h3><div class="employer">Environment and Climate Change Canada · Toronto, ON</div></div><time>May – Aug 2022</time></div><ul><li>Supported laboratory servers, monitoring devices, network/DNS troubleshooting, and IT inventory documentation.</li></ul></article>
-    </div></div></section>
-    
-<section id="additional-experience">
-  <div class="container">
-    <div class="sectionlabel">Additional Technical Experience</div>
-    <h2 class="sectiontitle">Data centre infrastructure support.</h2>
-    <div class="timeline">
-      <article class="job">
-        <div class="jobtop">
-          <div>
-            <h3>Data Centre Cabling Support</h3>
-            <div class="employer">
-              One-Day On-Call Assignment · Cloudflare Site
-            </div>
+
+    <!-- HERO SECTION -->
+
+    <div id="home" class="hero">
+      <div class="container">
+
+        <div class="eyebrow">
+          Toronto, Ontario · IT Systems &amp; Application Support
+        </div>
+
+        <h1>
+          Technology that supports<br>
+          <span>people and operations.</span>
+        </h1>
+
+        <p>
+          I'm Mizanur Ruman, an IT professional with experience
+          in hospital information systems, enterprise application
+          support, IT service management, networking, data centre
+          infrastructure, and AI automation. I enjoy making
+          technology reliable, usable, and easier to support.
+        </p>
+
+        <div class="buttons">
+
+          <a class="btn primary"
+             href="mailto:mizan-ruman@outlook.com">
+            Get in touch <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="btn secondary"
+             href="resume.pdf"
+             target="_blank"
+             rel="noopener noreferrer">
+            View résumé ↗
+          </a>
+
+          <a class="btn secondary"
+             href="https://www.linkedin.com/in/mizan-ruman/"
+             target="_blank"
+             rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+
+          <a class="btn secondary"
+             href="https://github.com/git-mizpok"
+             target="_blank"
+             rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+
+        </div>
+
+        <div class="stats" aria-label="Career highlights">
+
+          <div class="stat">
+            <strong>103</strong>
+            <small>Hospital workstations prepared</small>
           </div>
-          <time>2026</time>
+
+          <div class="stat">
+            <strong>20+</strong>
+            <small>Daily service incidents handled</small>
+          </div>
+
+          <div class="stat">
+            <strong>70%+</strong>
+            <small>First-contact resolution</small>
+          </div>
+
+          <div class="stat">
+            <strong>20</strong>
+            <small>Data centre network cables patched</small>
+          </div>
+
         </div>
-        <ul>
-          <li>Patched 20 data centre network cables during a one-day on-call assignment supporting Cloudflare infrastructure.</li>
-        </ul>
-        <div class="pillwrap">
-          <span class="pill">Network Cabling</span>
-          <span class="pill">Data Centre Infrastructure</span>
-          <span class="pill">Network Infrastructure</span>
-        </div>
-      </article>
+
+      </div>
     </div>
-  </div>
-</section>
-    <section id="projects"><div class="container"><div class="sectionlabel">Selected work</div><h2 class="sectiontitle">Technical projects and initiatives.</h2><div class="cards">
-      <article class="card"><div class="meta">Personal project · Python / Linux / APIs</div><h3>Job Alert Automation Bot</h3><p>Built Python and API workflows to search and filter technology job listings, then deliver alerts through Telegram. Used Linux cron scheduling, Docker, JSON, and GitHub as part of the workflow.</p><div class="pillwrap"><span class="pill">Python</span><span class="pill">REST APIs</span><span class="pill">Linux cron</span><span class="pill">Docker</span><span class="pill">Telegram</span></div></article>
-      <article class="card"><div class="meta">Professional initiative · Healthcare IT</div><h3>Hospital endpoint deployment readiness</h3><p>Helped prepare 103 Workstations on Wheels and supported workstation imaging, hardware troubleshooting and deployment coordination during an HIS migration initiative. This describes professional responsibilities, not an independent software project.</p><div class="pillwrap"><span class="pill">HIS readiness</span><span class="pill">Endpoint deployment</span><span class="pill">Vendor coordination</span></div></article>
-      <article class="card"><div class="meta">Professional experience · AI operations</div><h3>Automation workflow support</h3><p>Monitored containerized AI workflows, reviewed logs, investigated issues and assisted with data-to-JSON agent workflows using GCP, Docker and automation tools.</p><div class="pillwrap"><span class="pill">Google Cloud</span><span class="pill">Docker</span><span class="pill">JSON</span><span class="pill">Workflow monitoring</span></div></article>
-    </div><p class="lead" style="margin-top:25px">For additional public code samples, visit <a href="https://github.com/git-mizpok" target="_blank" rel="noopener noreferrer">my GitHub profile</a>. Availability of individual repositories may vary.</p></div></section>
-    <section id="skills"><div class="container"><div class="sectionlabel">Capabilities</div><h2 class="sectiontitle">A practical technical toolkit.</h2><div class="skills"><div class="skillcard"><h3>Service & application support</h3><p>ServiceNow · incident management · troubleshooting · documentation · ERP workflow monitoring · stakeholder communication</p></div><div class="skillcard"><h3>Microsoft & endpoints</h3><p>Microsoft 365 · Active Directory · Entra ID · MFA · Windows 10/11 · endpoint imaging · device setup</p></div><div class="skillcard"><h3>Networking & infrastructure</h3><p>TCP/IP · DNS · DHCP · VPN · LAN/WAN · Wi-Fi troubleshooting · Windows Server foundations · Network cabling · Data centre infrastructure</p></div><div class="skillcard"><h3>Cloud & automation</h3><p>Google Cloud Platform · Docker · Python · APIs · JSON · Linux cron · GitHub</p></div><div class="skillcard"><h3>Academic AV support</h3><p>Classroom audiovisual equipment · live session support · peripheral configuration · remote and on-site troubleshooting</p></div><div class="skillcard"><h3>Continuous development</h3><p>Cybersecurity graduate training · networking studies · OffSec PEN-103 coursework in progress</p></div></div></div></section>
-    <section id="education"><div class="container"><div class="sectionlabel">Education</div><h2 class="sectiontitle">Built on technical fundamentals.</h2><div class="edu"><div class="eduitem"><strong>Graduate Certificate · Cybersecurity</strong><span>Centennial College · 2024</span></div><div class="eduitem"><strong>Advanced Diploma (Co-op) · Computer Systems Technology – Networking</strong><span>Centennial College · 2023</span></div><div class="eduitem"><strong>Diploma · Electro-Mechanical Engineering Technician – Automation and Robotics</strong><span>Centennial College · 2015</span></div></div></div></section>
-    <section id="contact" class="contact"><div class="container"><div class="contactbox"><div class="sectionlabel">Let's connect</div><h2 class="sectiontitle">Looking for dependable technical support?</h2><p>I'm interested in opportunities involving healthcare IT, application support, systems operations, and technical analysis.</p><div class="buttons"><a class="btn primary" href="mailto:mizan-ruman@outlook.com">Email me ↗</a><a class="btn secondary" href="https://www.linkedin.com/in/mizan-ruman/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="btn secondary" href="https://github.com/git-mizpok" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></div></section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about">
+      <div class="container">
+
+        <div class="sectionlabel">About me</div>
+
+        <h2 class="sectiontitle">
+          Bridging frontline support and systems operations.
+        </h2>
+
+        <p class="lead">
+          My experience spans healthcare, higher education,
+          government, enterprise IT, and data centre environments.
+          At Cambridge Memorial Hospital, I supported HIS migration
+          readiness and technology deployments. At Centennial College,
+          I resolved frontline IT issues across a large user community.
+          I have also supported ERP operations, monitored AI automation
+          workflows using cloud and container technologies, and gained
+          hands-on data centre network cabling experience through
+          an on-call technical assignment.
+        </p>
+
+        <div class="cards">
+
+          <div class="card">
+            <div class="meta">Healthcare IT</div>
+            <h3>Hospital technology readiness</h3>
+            <p>
+              Supported HIS migration preparation, workstation staging
+              and imaging, and coordination with IT teams, vendors,
+              and hospital departments.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="meta">Application &amp; user support</div>
+            <h3>Practical, service-focused troubleshooting</h3>
+            <p>
+              Experience with incident triage, endpoint support,
+              account access, enterprise applications, technical
+              documentation, and escalation workflows.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="meta">Networking &amp; infrastructure</div>
+            <h3>Hands-on infrastructure support</h3>
+            <p>
+              Experience with network troubleshooting, endpoint
+              connectivity, wireless infrastructure coordination,
+              and data centre network cable patching.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="meta">Cloud &amp; automation</div>
+            <h3>Automation and workflow operations</h3>
+            <p>
+              Experience monitoring AI automation workflows,
+              investigating technical issues, reviewing logs,
+              and working with cloud and container technologies.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+
+    <section id="experience">
+      <div class="container">
+
+        <div class="sectionlabel">Professional experience</div>
+
+        <h2 class="sectiontitle">
+          Where I've contributed.
+        </h2>
+
+        <div class="timeline">
+
+          <!-- CAMBRIDGE MEMORIAL HOSPITAL -->
+
+          <article class="job">
+
+            <div class="jobtop">
+              <div>
+                <h3>HIS Analyst</h3>
+                <div class="employer">
+                  Cambridge Memorial Hospital · Cambridge, ON
+                </div>
+              </div>
+              <time>Jul – Oct 2026</time>
+            </div>
+
+            <ul>
+              <li>
+                Supported hospital-wide HIS migration and deployment
+                readiness with IT teams, vendors, and departmental
+                stakeholders.
+              </li>
+
+              <li>
+                Prepared and configured 103 Workstations on Wheels
+                for planned updates and deployment.
+              </li>
+
+              <li>
+                Coordinated with a vendor regarding 18 wireless
+                access point installations.
+              </li>
+
+              <li>
+                Supported workstation imaging, hardware
+                troubleshooting, and endpoint deployment.
+              </li>
+            </ul>
+
+            <div class="pillwrap">
+              <span class="pill">Healthcare IT</span>
+              <span class="pill">HIS</span>
+              <span class="pill">Application Support</span>
+              <span class="pill">Endpoint Deployment</span>
+              <span class="pill">Vendor Coordination</span>
+            </div>
+
+          </article>
+
+          <!-- MATMUL -->
+
+          <article class="job">
+
+            <div class="jobtop">
+              <div>
+                <h3>AI Automation Specialist</h3>
+                <div class="employer">
+                  MatMul Inc. · Toronto, ON
+                </div>
+              </div>
+              <time>May – Jul 2026</time>
+            </div>
+
+            <ul>
+              <li>
+                Monitored containerized automation workflows using
+                Docker and Google Cloud Platform.
+              </li>
+
+              <li>
+                Assisted with AI agents producing structured
+                JSON outputs.
+              </li>
+
+              <li>
+                Reviewed workflow logs, investigated technical
+                issues, and reported findings.
+              </li>
+            </ul>
+
+            <div class="pillwrap">
+              <span class="pill">AI Automation</span>
+              <span class="pill">Google Cloud Platform</span>
+              <span class="pill">Docker</span>
+              <span class="pill">JSON</span>
+              <span class="pill">Workflow Monitoring</span>
+            </div>
+
+          </article>
+
+          <!-- CENTENNIAL COLLEGE -->
+
+          <article class="job">
+
+            <div class="jobtop">
+              <div>
+                <h3>IT Service Desk Technician</h3>
+                <div class="employer">
+                  Centennial College · Toronto, ON
+                </div>
+              </div>
+              <time>Sep 2025 – Apr 2026</time>
+            </div>
+
+            <ul>
+              <li>
+                Resolved 20+ daily ServiceNow incidents across
+                Microsoft 365, Active Directory, MFA, VPN,
+                Windows, and networking.
+              </li>
+
+              <li>
+                Achieved over 70% first-contact resolution
+                in an environment serving over 40,000 users.
+              </li>
+
+              <li>
+                Collaborated with Tier 2, cybersecurity, and
+                infrastructure teams on technical escalations.
+              </li>
+            </ul>
+
+            <div class="pillwrap">
+              <span class="pill">ServiceNow</span>
+              <span class="pill">Microsoft 365</span>
+              <span class="pill">Active Directory</span>
+              <span class="pill">Incident Management</span>
+              <span class="pill">Technical Support</span>
+            </div>
+
+          </article>
+
+          <!-- KNIT HORIZON -->
+
+          <article class="job">
+
+            <div class="jobtop">
+              <div>
+                <h3>Assistant Officer – IT</h3>
+                <div class="employer">
+                  Knit Horizon Ltd · Gazipur, Bangladesh
+                </div>
+              </div>
+              <time>Jun 2024 – Aug 2025</time>
+            </div>
+
+            <ul>
+              <li>
+                Supported ERP operations and monitored
+                workflows serving 1,200+ employees.
+              </li>
+
+              <li>
+                Coordinated technical reporting with IT leadership,
+                stakeholders, and third-party providers.
+              </li>
+            </ul>
+
+            <div class="pillwrap">
+              <span class="pill">ERP Systems</span>
+              <span class="pill">IT Operations</span>
+              <span class="pill">Application Support</span>
+              <span class="pill">Workflow Monitoring</span>
+            </div>
+
+          </article>
+
+          <!-- CENTENNIAL COLLEGE EARLIER ROLE -->
+
+          <article class="job">
+
+            <div class="jobtop">
+              <div>
+                <h3>IT Service Desk Support</h3>
+                <div class="employer">
+                  Centennial College · Toronto, ON
+                </div>
+              </div>
+              <time>Sep 2023 – Apr 2024</time>
+            </div>
+
+            <ul>
+              <li>
+                Delivered desktop, endpoint, and classroom
+                AV support.
+              </li>
+
+              <li>
+                Documented technical issues and resolutions.
+              </li>
+
+              <li>
+                Assisted during live academic sessions and
+                events alongside AV specialists.
+              </li>
+            </ul>
+
+            <div class="pillwrap">
+              <span class="pill">Desktop Support</span>
+              <span class="pill">End User Support</span>
+              <span class="pill">AV Systems</span>
+              <span class="pill">Troubleshooting</span>
+            </div>
+
+          </article>
+
+          <!-- ENVIRONMENT AND CLIMATE CHANGE CANADA -->
+
+          <article class="job">
+
+            <div class="jobtop">
+              <div>
+                <h3>
+                  IT Service / Junior Meteorological Inspector
+                  (Co-op)
+                </h3>
+
+                <div class="employer">
+                  Environment and Climate Change Canada · Toronto, ON
+                </div>
+              </div>
+              <time>May – Aug 2022</time>
+            </div>
+
+            <ul>
+              <li>
+                Supported laboratory servers, monitoring devices,
+                network and DNS troubleshooting, and IT inventory
+                documentation.
+              </li>
+            </ul>
+
+            <div class="pillwrap">
+              <span class="pill">Networking</span>
+              <span class="pill">DNS</span>
+              <span class="pill">Server Support</span>
+              <span class="pill">IT Inventory</span>
+            </div>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ADDITIONAL TECHNICAL EXPERIENCE -->
+
+    <section id="additional-experience">
+      <div class="container">
+
+        <div class="sectionlabel">
+          Additional technical experience
+        </div>
+
+        <h2 class="sectiontitle">
+          Data centre infrastructure support.
+        </h2>
+
+        <div class="timeline">
+
+          <article class="job">
+
+            <div class="jobtop">
+              <div>
+                <h3>Data Centre Cabling Support</h3>
+
+                <div class="employer">
+                  One-Day On-Call Assignment · Cloudflare Site
+                </div>
+              </div>
+
+              <time>2026</time>
+            </div>
+
+            <ul>
+              <li>
+                Patched 20 data centre network cables during
+                a one-day on-call assignment supporting
+                Cloudflare infrastructure.
+              </li>
+            </ul>
+
+            <div class="pillwrap">
+              <span class="pill">Network Cabling</span>
+              <span class="pill">Data Centre Infrastructure</span>
+              <span class="pill">Network Infrastructure</span>
+            </div>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <div class="container">
+
+        <div class="sectionlabel">Selected work</div>
+
+        <h2 class="sectiontitle">
+          Technical projects and initiatives.
+        </h2>
+
+        <div class="cards">
+
+          <article class="card">
+
+            <div class="meta">
+              Personal project · Python / Linux / APIs
+            </div>
+
+            <h3>Job Alert Automation Bot</h3>
+
+            <p>
+              Built Python and API workflows to search and filter
+              technology job listings, then deliver alerts through
+              Telegram. Used Linux cron scheduling, Docker, JSON,
+              and GitHub as part of the workflow.
+            </p>
+
+            <div class="pillwrap">
+              <span class="pill">Python</span>
+              <span class="pill">REST APIs</span>
+              <span class="pill">Linux cron</span>
+              <span class="pill">Docker</span>
+              <span class="pill">Telegram</span>
+            </div>
+
+          </article>
+
+          <article class="card">
+
+            <div class="meta">
+              Professional initiative · Healthcare IT
+            </div>
+
+            <h3>Hospital Endpoint Deployment Readiness</h3>
+
+            <p>
+              Helped prepare 103 Workstations on Wheels and supported
+              workstation imaging, hardware troubleshooting, and
+              deployment coordination during an HIS migration
+              initiative.
+            </p>
+
+            <div class="pillwrap">
+              <span class="pill">HIS Readiness</span>
+              <span class="pill">Endpoint Deployment</span>
+              <span class="pill">Vendor Coordination</span>
+            </div>
+
+          </article>
+
+          <article class="card">
+
+            <div class="meta">
+              Professional experience · AI operations
+            </div>
+
+            <h3>Automation Workflow Support</h3>
+
+            <p>
+              Monitored containerized AI workflows, reviewed logs,
+              investigated issues, and assisted with data-to-JSON
+              agent workflows using GCP, Docker, and automation tools.
+            </p>
+
+            <div class="pillwrap">
+              <span class="pill">Google Cloud</span>
+              <span class="pill">Docker</span>
+              <span class="pill">JSON</span>
+              <span class="pill">Workflow Monitoring</span>
+            </div>
+
+          </article>
+
+        </div>
+
+        <div class="buttons">
+
+          <a class="btn secondary"
+             href="https://github.com/git-mizpok"
+             target="_blank"
+             rel="noopener noreferrer">
+            Explore my GitHub ↗
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS -->
+
+    <section id="skills">
+      <div class="container">
+
+        <div class="sectionlabel">Capabilities</div>
+
+        <h2 class="sectiontitle">
+          A practical technical toolkit.
+        </h2>
+
+        <div class="skills">
+
+          <div class="skillcard">
+            <h3>Service &amp; Application Support</h3>
+            <p>
+              ServiceNow · IT Service Management · Incident Management
+              · Application Support · Troubleshooting · ERP Workflow
+              Monitoring · Technical Documentation
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Healthcare IT &amp; HIS</h3>
+            <p>
+              Hospital Information Systems · HIS Migration Readiness
+              · Clinical Technology Deployment · Workstations on Wheels
+              · Vendor Coordination
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Microsoft &amp; Endpoints</h3>
+            <p>
+              Microsoft 365 · Active Directory · Microsoft Entra ID
+              · MFA · Windows 10/11 · Endpoint Imaging · Device Setup
+              · Desktop Support
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Networking &amp; Infrastructure</h3>
+            <p>
+              TCP/IP · DNS · DHCP · VPN · LAN/WAN · Wi-Fi Troubleshooting
+              · Windows Server Foundations · Network Cabling
+              · Data Centre Infrastructure
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Cloud &amp; AI Automation</h3>
+            <p>
+              Google Cloud Platform · Docker · Python · APIs
+              · JSON · Linux cron · GitHub · AI Agents
+              · Workflow Monitoring
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Cybersecurity Foundations</h3>
+            <p>
+              Cybersecurity Graduate Training · Network Security
+              · Account Access Support · Multi-Factor Authentication
+              · OffSec PEN-103 Coursework in Progress
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Hardware &amp; AV Support</h3>
+            <p>
+              Hardware Troubleshooting · Workstation Deployment
+              · Peripheral Configuration · Classroom Audiovisual
+              Equipment · Remote and On-site Support
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Enterprise IT Operations</h3>
+            <p>
+              ERP Systems · IT Inventory · Workflow Monitoring
+              · Technical Reporting · Business Process Support
+              · Stakeholder Communication
+            </p>
+          </div>
+
+          <div class="skillcard">
+            <h3>Professional Skills</h3>
+            <p>
+              Problem Solving · Customer Service · Communication
+              · Cross-functional Collaboration · Technical Escalation
+              · Continuous Learning
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+
+    <section id="education">
+      <div class="container">
+
+        <div class="sectionlabel">Education</div>
+
+        <h2 class="sectiontitle">
+          Built on technical fundamentals.
+        </h2>
+
+        <div class="edu">
+
+          <div class="eduitem">
+            <strong>Graduate Certificate · Cybersecurity</strong>
+            <span>Centennial College · 2024</span>
+          </div>
+
+          <div class="eduitem">
+            <strong>
+              Advanced Diploma (Co-op) · Computer Systems
+              Technology – Networking
+            </strong>
+            <span>Centennial College · 2023</span>
+          </div>
+
+          <div class="eduitem">
+            <strong>
+              Diploma · Electro-Mechanical Engineering Technician
+              – Automation and Robotics
+            </strong>
+            <span>Centennial College · 2015</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="contactbox">
+
+          <div class="sectionlabel">Let's connect</div>
+
+          <h2 class="sectiontitle">
+            Looking for dependable technical support?
+          </h2>
+
+          <p>
+            I'm interested in permanent, full-time opportunities
+            involving IT systems support, healthcare IT, application
+            support, technical analysis, networking, infrastructure,
+            and IT operations.
+          </p>
+
+          <p>
+            Based in Toronto, Ontario, and open to suitable
+            opportunities across Canada, including relocation.
+          </p>
+
+          <div class="buttons">
+
+            <a class="btn primary"
+               href="mailto:mizan-ruman@outlook.com">
+              Email me ↗
+            </a>
+
+            <a class="btn secondary"
+               href="https://www.linkedin.com/in/mizan-ruman/"
+               target="_blank"
+               rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+
+            <a class="btn secondary"
+               href="https://github.com/git-mizpok"
+               target="_blank"
+               rel="noopener noreferrer">
+              GitHub ↗
+            </a>
+
+            <a class="btn secondary"
+               href="resume.pdf"
+               target="_blank"
+               rel="noopener noreferrer">
+              View résumé ↗
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
-  <footer class="footer"><div class="container"><span>© 2026 Mizanur Ruman</span><span>Toronto, Ontario · Built as a lightweight, accessible static site</span></div></footer>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Mizanur Ruman</span>
+      <span>Toronto, Ontario, Canada · Professional IT Portfolio</span>
+    </div>
+  </footer>
+
 </body>
 </html>
